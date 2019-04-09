@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "793350589174",
+    "firebase_url": "https://study-planning.firebaseio.com",
+    "project_id": "study-planning",
+    "storage_bucket": "study-planning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793350589174:android:6adb88d1104ff267",
+        "android_client_info": {
+          "package_name": "com.rotnocse.studyplannerproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793350589174-pn9h6or866a1dkd39ludcvbitd6ci1vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcCY5xTqwPg5o64fCHlgZ7Qc9WOrKTnTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundlogin">
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="310dp"
+        android:layout_height="520dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:elevation="90dp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/frame_content"
+        android:layout_marginTop="110dp"
+        android:background="@mipmap/button2"
+        android:elevation="20sp"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="@string/login"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="10dp"
+        android:elevation="20sp"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="@string/sign_in"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</RelativeLayout>
